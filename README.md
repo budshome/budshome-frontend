@@ -1,5 +1,5 @@
 # budshome-cms
-A CMS(Contest Management System) implemented in Rust, powered by actix-web, mongodb, and react. https://budshome.com
+A CMS(Contest Management System) written in Rust, implemented by actix-web, mongodb, and react. https://budshome.com
 
 ## budshome-frontend
 - react
