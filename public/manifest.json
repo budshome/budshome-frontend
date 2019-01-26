@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "BudsHome cms",
+  "name": "A CMS(Contest Management System) written in Rust, implemented by actix-web, mongodb, and react.",
   "icons": [
     {
       "src": "favicon.ico",
