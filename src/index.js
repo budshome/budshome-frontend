@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import * as serviceWorker from './serviceWorker';
 
-import Home from './home/Home';
+import Home from './home/index';
 import './index.css';
 
 /*!
