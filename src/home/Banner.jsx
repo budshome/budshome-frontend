@@ -32,7 +32,7 @@ function Banner(props) {
           开箱即用的中台前端/设计解决方案
         </p>
         <div key="button" className="button-wrapper">
-          <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">
+          <a href="http://preview.pro.ant.design" target="_blank">
             <Button type="primary">
               预览
             </Button>

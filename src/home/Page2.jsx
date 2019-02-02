@@ -25,7 +25,7 @@ function Page2() {
               <div>
                 $ npm start
                 <span className="home-code-comment">
-                  // 打开浏览器访问 http://localhost:8000
+                  打开浏览器访问 http://localhost:8000
                 </span>
               </div>
             </div>
@@ -37,7 +37,7 @@ function Page2() {
               <a href="https://github.com/ant-design/ant-design-pro/issues"> 进行提问 </a>。
             </p>
             <div key="button" style={{ marginTop: 88 }}>
-              <a href="http://github.com/ant-design/ant-design-pro" target="_blank" rel="noopener noreferrer">
+              <a href="http://github.com/ant-design/ant-design-pro" target="_blank">
                 <Button type="primary">下载 Pro</Button>
               </a>
             </div>

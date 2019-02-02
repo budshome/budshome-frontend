@@ -16,18 +16,18 @@ class Header extends React.Component {
     const menu = (
       <Menu mode={menuMode} id="nav" key="nav">
         <Menu.Item key="home">
-          <a>首页</a>
+          <a href="#">首页</a>
         </Menu.Item>
         <Menu.Item key="docs">
-          <a><span>文档</span></a>
+          <a href="#"><span>文档</span></a>
         </Menu.Item>
         <Menu.Item key="components">
-          <a>组件</a>
+          <a href="#">组件</a>
         </Menu.Item>
         {
           menuMode === 'inline' && (
             <Menu.Item key="preview">
-              <a target="_blank" href="http://preview.pro.ant.design/" rel="noopener noreferrer">
+              <a target="_blank" href="http://preview.pro.ant.design/">
                 预览
               </a>
             </Menu.Item>
@@ -69,7 +69,6 @@ class Header extends React.Component {
                   id="preview-button"
                   target="_blank"
                   href="http://preview.pro.ant.design"
-                  rel="noopener noreferrer"
                 >
                   <Button icon="eye-o">
                     预览
