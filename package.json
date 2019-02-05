@@ -10,7 +10,7 @@
     "@types/react-dom": "^16.0.11",
     "typescript": "^3.3.1",
     "office-ui-fabric-react": "latest",
-    "axios": "^0.18.0",
+    "axios": "latest",
     "react-router-dom": "^4.3.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
