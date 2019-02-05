@@ -1,5 +1,5 @@
 {
-  "short_name": "BudsHome cms",
+  "short_name": "BudsHome-cms",
   "name": "A CMS(Contest Management System) written in Rust, implemented by actix-web, mongodb, and react.",
   "icons": [
     {
