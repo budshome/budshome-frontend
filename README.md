@@ -3,7 +3,7 @@ A CMS(Contest Management System) written in Rust, implemented by actix-web, mong
 
 ## budshome-frontend
 - react
-- office-ui-fabric-react
+- fabric-react
 
 ### `npm test`
 ### `npm run build`
