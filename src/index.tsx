@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/home';
+
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import Home from './components/home';
+
+
+
+ReactDOM.render(<Home />, document.getElementById('root'));
 
 serviceWorker.unregister();
 
