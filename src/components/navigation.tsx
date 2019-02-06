@@ -4,7 +4,7 @@ import { CommandBar } from 'office-ui-fabric-react/lib/CommandBar';
 
 
 
-class NaviBar extends React.Component<{}, {}> {
+export default class NaviBar extends React.Component<{}, {}> {
   public render(): JSX.Element {
     return (
       <div>
@@ -110,5 +110,3 @@ class NaviBar extends React.Component<{}, {}> {
     ];
   };
 }
-
-export default NaviBar;
