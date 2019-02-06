@@ -1,6 +1,8 @@
-import * as React from 'react';
+import React from 'react';
 
 import { CommandBar } from 'office-ui-fabric-react/lib/CommandBar';
+
+
 
 class NaviBar extends React.Component<{}, {}> {
   public render(): JSX.Element {
