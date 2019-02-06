@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://budshome.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/budshome/budshome-frontend"
+  },
   "dependencies": {
     "@types/jest": "^24.0.0",
     "@types/node": "^10.12.21",
