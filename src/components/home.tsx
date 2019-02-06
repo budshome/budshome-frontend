@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import NaviBar from './navigation';
 
-class App extends Component {
+
+
+class Home extends React.Component {
   render() {
     return (
       <NaviBar />
@@ -10,4 +12,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
