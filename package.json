@@ -12,14 +12,13 @@
     "@types/node": "^10.12.21",
     "@types/react": "^16.8.1",
     "@types/react-dom": "^16.0.11",
-    "typescript": "^3.3.1",
+    "typescript": "^3.3.2",
     "office-ui-fabric-react": "latest",
-    "@uifabric/azure-themes": "latest",
     "axios": "latest",
     "react-router-dom": "^4.3.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "^2.1.3"
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-scripts": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
