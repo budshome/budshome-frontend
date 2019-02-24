@@ -10,15 +10,15 @@
   "dependencies": {
     "office-ui-fabric-react": "latest",
     "axios": "latest",
-    "react-router-dom": "^4.3.1",
-    "typescript": "^3.3.2",
-    "@types/node": "^10.12.21",
-    "@types/react": "^16.8.1",
-    "@types/react-dom": "^16.0.11",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "@types/jest": "^24.0.0",
-    "react-scripts": "^2.1.4"
+    "react-router-dom": "latest",
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@types/jest": "latest",
+    "react-scripts": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
