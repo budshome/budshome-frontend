@@ -8,17 +8,17 @@
     "url": "https://github.com/budshome/budshome-frontend"
   },
   "dependencies": {
-    "office-ui-fabric-react": "latest",
-    "axios": "latest",
-    "react-router-dom": "latest",
-    "typescript": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "@types/jest": "latest",
-    "react-scripts": "latest"
+    "office-ui-fabric-react": "^6.186.0",
+    "axios": "^0.18.0",
+    "react-router-dom": "^5.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "typescript": "^3.4.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "@types/jest": "^24.0.0",
+    "react-scripts": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
