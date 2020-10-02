@@ -5,10 +5,9 @@ extern crate actix_web;
 extern crate serde_json;
 
 use actix_http::{body::Body, Response};
-use actix_web::dev::ServiceResponse;
-use actix_web::http::StatusCode;
-use actix_web::middleware::{Logger, errhandlers::{ErrorHandlerResponse, ErrorHandlers}};
 use actix_web::{web, App, HttpResponse, HttpServer, Result};
+use actix_web::{dev::ServiceResponse, http::StatusCode};
+use actix_web::middleware::{Logger, errhandlers::{ErrorHandlerResponse, ErrorHandlers}};
 
 use handlebars::Handlebars;
 
