@@ -7,7 +7,7 @@ extern crate serde_json;
 use actix_http::{body::Body, Response};
 use actix_web::dev::ServiceResponse;
 use actix_web::http::StatusCode;
-use actix_web::middleware::errhandlers::{ErrorHandlerResponse, ErrorHandlers};
+use actix_web::middleware::{Logger, errhandlers::{ErrorHandlerResponse, ErrorHandlers}};
 use actix_web::{web, App, HttpResponse, HttpServer, Result};
 
 use handlebars::Handlebars;
@@ -63,6 +63,7 @@ async fn main() -> io::Result<()> {
             .app_data(handlebars_ref.clone())
             .service(index)
             .service(user)
+            .wrap(Logger::default())
     })
     .bind(bind_addr)?
     .run()
