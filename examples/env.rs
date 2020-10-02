@@ -3,11 +3,14 @@ use std::env;
 
 fn main() {
     dotenv().ok();
+    
+    let bind_addr = env::var("BIND_ADDR")
+        .unwrap_or_else(|_| String::from("bind_addr"));
 
-    let graphql_port: i16 = env::var("GRAPHQL_PORT")
-        .unwrap_or_else(|_| String::from("80"))
-        .parse()
-        .expect("GRAPHQL_PORT must be a number");
+    println!("{}", bind_addr);
 
-    println!("0.0.0.0:{}", graphql_port);
+    let database_url = env::var("DATABASE_URL")
+        .unwrap_or_else(|_| String::from("database_url"));
+
+    println!("{}", database_url);
 }
